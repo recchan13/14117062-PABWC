@@ -3,69 +3,83 @@ Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0
 Transitional//EN" "http://www.w3.org/TR/xhtml1 /DTD/xhtml1 -
 transitional.dtd">
+<html lang="en">
 
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"
-/>
-<meta name="owners" content="myWeb" />
-<meta name="keywords" content="Sistem Informasi, Jurnal, Publikasi
-Ilmiah" />
-<meta name="layout" content="main" />
-<meta HTTP-EQUIV="REFRESH" content="0; url=/myweb/myurl">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"
+    />
+    <meta name="owners" content="myWeb" />
+    
+    <meta name="keywords" content="Sistem Informasi, Jurnal, Publikasi
+    Ilmiah" />
+    
+    <meta name="layout" content="main" />
+    
+    <meta HTTP-EQUIV="REFRESH" content="5; url=http://google.co.id">
 
-<title>Praktikum Pemrograman Web</title>
 
-<h1>Selamat Datang Di Website Kami!</h1>
-<h2>Web Ini Adalah Tutorial Pemrograman Web</h2>
-<h3>Praktikum Pemrograman Web</h3>
-<p> <a href="http://itera.ac.id"> Teknik Informatika ITERA
-</a> </span> link for your success way </p>
+    <title>Praktikum Pemrograman Web</title>
+</head>
+<body>
+    <h1>Selamat Datang Di Website Kami!</h1>
+    <h2>Web Ini Adalah Tutorial Pemrograman Web</h2>
+    <h3>Praktikum Pemrograman Web</h3>
+    <p> <a href="http://itera.ac.id"> Teknik Informatika ITERA
+    </a> </span> link for your success way </p>
 
-Image
-<img src="images/myphoto.jpg" width="180" height="200"
-alt="photo"/>
+    <img src="images/myphoto.jpg" width="310" height="200"
+    alt="photo"/>
 
-Form
-<form method="POST" action="response2.jsp"
-enctype="multipart/form-data">
-Drop-Box
-<select name="My Lab">
+    <form method="POST" action="response2.jsp"enctype="multipart/form-data">
+    
+    Laboratorium 
+    <select name="My Lab">
+        <option value="LabtekProdi">Lab. Prodi LABTEK</option>
+        <option value="LabtekTPB">Lab. TPB LABTEK</option>
+        <option value="LabCProdi">Lab. Prodi Ged. C</option>
+        <option value="LabCProdi">Lab. TPB Ged. C</option>
+    </select>
+    
+    <br>
+    File Browser 
+    <input type="file" name="upload" value="" width="200" />
+    
+    <br>
+    
+    <table border="1" width="30">
+        <thead>
+            <tr>
+                <th>NIM</th>
+                <th>Mahasiswa</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>123</td>
+                <td>Ani Rahmawati </td>
+            </tr>
+            <tr>
+                <td>124</td>
+                <td>Budi Susilo</td>
+            </tr>
+        </tbody>
+    </table>
 
-</select>
-File Browser
-<input type="file" name="upload" value="" width="200" />
-Table
-<table border="1" width="10">
-<thead>
-<tr>
-<th>NIM</th>
-<th>Mahasiswa</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>123</td>
-<td>Ani Rahmawati </td>
-</tr>
-<tr>
-<td>124</td>
-<td>Budi Susilo</td>
-</tr>
-</tbody>
-</table>
-
-List
-Bidang Minat:
-<ol>
-<li>Sistem Informasi
-<ul>
-<li>Data Warehousing </li>
-<li>Enterprise Architecture </li>
-</ul>
-</li>
-<li>Multimedia
-<ul>
-<li>Komputer Grafik </li>
-<li>Machinema </li>
-</ul>
-</li>
-</ol>
+    List Bidang Minat:
+    <ol>
+        <li>Sistem Informasi
+            <ul>
+                <li>Data Warehousing </li>
+                <li>Enterprise Architecture </li>
+            </ul>
+        </li>
+        <li>Multimedia
+            <ul>
+                <li>Komputer Grafik </li>
+                <li>Machinema </li>
+            </ul>
+        </li>
+    </ol>
+    
+</body>
+</html>
